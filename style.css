@@ -1,0 +1,72 @@
+/* .jumbotron {
+  background: url('./$allnfl.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  overflow: hidden;
+  color: white;
+} */
+
+.jumbotron {
+  padding: 0;
+  max-height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+  white-space: nowrap;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+}
+
+hr {
+  height: 4px;
+  margin: 0;
+  border: 0;
+}
+
+.primary-hr {
+  height: 14px;
+  background: rgb(29, 199, 255);
+}
+
+.secondary-hr {
+  background: red;
+  margin-bottom: 10px;
+}
+
+  .black-hr {
+    background: black;
+    height: 1px;
+  }
+
+
+
+.section {
+  margin: 10px;
+  height: 300px;
+  width: 30%;
+  background: green;
+}
+
+.row {
+  margin: 0;
+}
