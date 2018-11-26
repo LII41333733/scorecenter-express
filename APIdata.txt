@@ -38,3 +38,16 @@ player[“age”]
 
 
 Articles
+------------------
+-   NFL Page (7 needed)
+picture
+	article.title
+	article.url
+	article.urlToImage
+- Team Page (Pull 20)
+	article.source.name
+	article.publishedAt
+	article.url
+	article.urlToImage
+	article.title
+	article.description
