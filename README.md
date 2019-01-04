@@ -40,23 +40,21 @@ For the *Fan Chat* section, we used *Socket.io*. Using RESTful methods, we were 
 
 ## Screenshots
 
+### Home Banner
+![Home Banner](public/photos/screenshot4.jpg)
+
 ### Team Banner
-![Team Banner](images/screenshot1.jpg)
+![Team Banner](public/photos/screenshot1.jpg)
 
-### For the Manager, Chef and Patron
-![For the Manager, Chef and Patron](images/screenshot2.png)
+### Fan Posts
+![Fan Posts](public/photos/screenshot2.jpg)
 
-### Restaurant Search
-![Restaurant Search](images/screenshot3.png)
+### Fan Chat
+![Fan Chat](public/photos/screenshot3.jpg)
 
-### Review Form (Bootstrap Modal)
-![Review Form](images/screenshot6.png)
+### Matchups
+![Matchups](public/photos/screenshot5.jpg)
 
-### Sample Review Collection
-![Sample Review](images/screenshot4.png)
-
-### Sample Review (Bootstrap Modal)
-![Sample Review](images/screenshot5.png)
 
 
 ## Prospective Improvememts
