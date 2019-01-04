@@ -41,19 +41,19 @@ For the *Fan Chat* section, we used *Socket.io*. Using RESTful methods, we were 
 ## Screenshots
 
 ### Home Banner
-![Home Banner](public/photos/screenshot4.jpg)
+![Home Banner](public/photos/screenshot4.JPG)
 
 ### Team Banner
-![Team Banner](public/photos/screenshot1.jpg)
+![Team Banner](public/photos/screenshot1.JPG)
 
 ### Fan Posts
-![Fan Posts](public/photos/screenshot2.jpg)
+![Fan Posts](public/photos/screenshot2.JPG)
 
 ### Fan Chat
-![Fan Chat](public/photos/screenshot3.jpg)
+![Fan Chat](public/photos/screenshot3.JPG)
 
 ### Matchups
-![Matchups](public/photos/screenshot5.jpg)
+![Matchups](public/photos/screenshot5.JPG)
 
 
 
