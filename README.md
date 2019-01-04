@@ -40,8 +40,8 @@ For the *Fan Chat* section, we used *Socket.io*. Using RESTful methods, we were 
 
 ## Screenshots
 
-### Main Banner
-![Main Banner](images/screenshot1.png)
+### Team Banner
+![Team Banner](images/screenshot1.jpg)
 
 ### For the Manager, Chef and Patron
 ![For the Manager, Chef and Patron](images/screenshot2.png)
