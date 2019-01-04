@@ -1,6 +1,6 @@
 # ScoreCenter Express
 
-[Link to the App](http://scorecenterexpress.herokuapp.com){target="_blank"}.
+[Link to the App](http://scorecenterexpress.herokuapp.com)
 
 
 ## Introduction
