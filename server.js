@@ -9,15 +9,19 @@ const fs = require('fs');
 
 const express = require("express");
 var path = require("path");
+const bodyParser = require('body-parser');
 
 var app = express();
 var PORT = process.env.PORT || 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("public"));
+app.use(express.static('public'));
+app.use(express.static('photos'));
 
-app.get("/team/:eagles", function(req, res) {
+
+
+app.get("/team", function(req, res) {
   res.sendFile(path.join(__dirname, "./public/team.html"));
 });
 
@@ -25,7 +29,7 @@ app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname, "./public/login.html"));
 });
 
-app.get("/login", function(req, res) {
+app.get("/login/", function(req, res) {
   res.sendFile(path.join(__dirname, "./public/login.html"));
 });
 
