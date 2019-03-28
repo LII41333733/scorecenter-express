@@ -2,6 +2,7 @@ body {
   /* font-family: 'Raleway', sans-serif; */
   font-family: 'Orbitron', sans-serif;
   color: #504949 !important;
+
 }
 
 .container {
@@ -9,10 +10,11 @@ body {
   max-width: 1300px;
 }
 
-.signup, .login, .chat {
+.signup, .login, .fanchat {
   background: url(../photos/bills-crowd-edit.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   padding: 20px;
   height: auto;
 }
@@ -99,6 +101,8 @@ p.subject {
   font-family: 'Raleway', sans-serif;
 }
 
+
+
 .subject-div {
   max-height: 60px;
 }
@@ -169,10 +173,19 @@ textarea {
   width: 70px;
 }
 
+.online-users-div {
+  background: white;
+
+}
+
+#messageArea {
+  padding: 15px;
+}
+
 
 .jumbotron {
   padding: 0;
-  max-height: 350px;
+  max-height: 600px;
   overflow: hidden;
   position: relative;
   margin: 0;
@@ -259,21 +272,21 @@ h4 {
 }
 
 
-.leftTeam {
+.awayTeam {
   position: absolute;
   /* border: 1px solid darkgreen; */
   height: 216px;
-  width: 270px;
+  width: 300px;
   left: 0px;
   padding: 8px 0;
 
 }
 
-.rightTeam {
+.homeTeam {
   position: absolute;
   /* border: 1px solid blue; */
   height: 216px;
-  width: 270px;
+  width: 300px;
   left: 52.2%;
   padding: 8px 0;
 
@@ -292,6 +305,7 @@ h3 {
   font-weight: 700;
   color: #4e4e4e;
   text-transform: uppercase;
+  font-family: 'Orbitron', sans-serif;
 }
 
 h5 a {
@@ -301,7 +315,7 @@ h5 a {
 .at {
   position: absolute;
   z-index: 5;
-  left: 48.2%;
+  left: 50%;
   top: 30%;
 }
   
@@ -324,15 +338,19 @@ h5 a {
     
   }
 
-
-.section {
-  height: 230px;
-  width: 300px;
-  /* background: green; */
-  position: relative;
-  padding: 10px 8px 0px 8px;
-  
+  .section {
+    height: 170px;
+    width: 241px;
+    position: relative;
+    margin: 3px;
 }
+
+  .matchup {
+    width: 600px;
+    height: 230px;
+    position: relative;
+  }
+
 
 .team-section {
   height: 270px;
@@ -353,23 +371,24 @@ h5 a {
 opacity: 1;
 display: block;
 width: 100%;
-height: auto;
+height: 100%;
 transition: .5s ease;
 backface-visibility: hidden;
 
 }
 
 .middle {
-width: 250px;
-transition: .5s ease;
-opacity: 0;
-position: absolute;
-top: 60%;
-left: 50%;
-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-text-align: center;
-
+  height: 94%;
+  width: 97%;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  padding-top: 10px;
 }
 
 .section:hover .image {
@@ -385,11 +404,13 @@ opacity: 1;
 }
 
 .text {
-height: 150px;
-color: black;
-font-size: 20px;
+  height: 100%;
+  width: 100%;
+  color: black;
+  font-size: 17px;
 letter-spacing: 2px;
-/* font-weight: bold; */
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
 padding: 0;
 }
 
@@ -404,9 +425,7 @@ padding: 0;
 
 
 
-.matchup {
-  width: 600px;
-}
+
 
 .footer {
   height: 200px;
@@ -534,7 +553,7 @@ h4 {
 
 
 
-.leftTeam:hover, .rightTeam:hover {
+.awayTeam:hover, .homeTeam:hover {
   border-bottom: 2px solid #1482c5 !important;
 } 
 
@@ -552,7 +571,7 @@ h4 {
 }
 
 .chat-container {
-  width: 90%;
+  width: 80%;
 }
 
 input {
@@ -560,7 +579,7 @@ input {
 }
 
 form {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
 } 
 
@@ -633,6 +652,31 @@ h4 {
 
 
 
-.leftTeam:hover, .rightTeam:hover {
+.awayTeam:hover, .homeTeam:hover {
  border-bottom: 2px solid #A5ACAF !important;
 } */
+
+.outline-reply {
+  padding: 10px;
+  border: 0px solid #cc0000;
+  
+}
+
+#chat {
+  height: 350px;
+  width: 100%;
+  background: white;
+}
+
+#chat div {
+  margin: 10px;
+  background: none !important;
+}
+
+#login {
+  background: none;
+}
+
+#signup {
+  background: none;
+}
