@@ -784,7 +784,7 @@ const getDivisions = () => {
       $rival = `<div class="first mb-1">
     &nbsp;${i + 1}. <span class="div-team-name"><img class="div-logo " src="${rival.teamLogo}">${rival.teamProperName}<span class=" div-record" id="div-record">${rival.teamRecord}</span></span></div>`;
 
-      $(".matchup-row").append($rival);
+      $(".rival-row").append($rival);
 
     });
 
